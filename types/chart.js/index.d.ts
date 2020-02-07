@@ -651,6 +651,7 @@ declare namespace Chart {
         maxBarThickness?: number;
         minBarLength?: number;
         steppedLine?: 'before' | 'after' | 'middle' | boolean;
+        order?: number;
         pointBorderColor?: ChartColor | ChartColor[] | Scriptable<ChartColor>;
         pointBackgroundColor?: ChartColor | ChartColor[] | Scriptable<ChartColor>;
         pointBorderWidth?: number | number[] | Scriptable<number>;
